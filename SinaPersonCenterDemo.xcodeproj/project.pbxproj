@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3040FCAA20FC8E6100845954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040FCA920FC8E6100845954 /* AppDelegate.m */; };
+		3040FCAD20FC8E6100845954 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040FCAC20FC8E6100845954 /* ViewController.m */; };
+		3040FCB020FC8E6100845954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3040FCAE20FC8E6100845954 /* Main.storyboard */; };
+		3040FCB220FC8E6200845954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3040FCB120FC8E6200845954 /* Assets.xcassets */; };
+		3040FCB520FC8E6200845954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3040FCB320FC8E6200845954 /* LaunchScreen.storyboard */; };
+		3040FCB820FC8E6200845954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040FCB720FC8E6200845954 /* main.m */; };
+		3040FCC220FC8E6200845954 /* SinaPersonCenterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040FCC120FC8E6200845954 /* SinaPersonCenterDemoTests.m */; };
+		3040FCCD20FC8E6200845954 /* SinaPersonCenterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040FCCC20FC8E6200845954 /* SinaPersonCenterDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3040FCBE20FC8E6200845954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3040FC9D20FC8E6100845954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3040FCA420FC8E6100845954;
+			remoteInfo = SinaPersonCenterDemo;
+		};
+		3040FCC920FC8E6200845954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3040FC9D20FC8E6100845954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3040FCA420FC8E6100845954;
+			remoteInfo = SinaPersonCenterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3040FCA520FC8E6100845954 /* SinaPersonCenterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaPersonCenterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3040FCA820FC8E6100845954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3040FCA920FC8E6100845954 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3040FCAB20FC8E6100845954 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3040FCAC20FC8E6100845954 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3040FCAF20FC8E6100845954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3040FCB120FC8E6200845954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3040FCB420FC8E6200845954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3040FCB620FC8E6200845954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3040FCB720FC8E6200845954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3040FCBD20FC8E6200845954 /* SinaPersonCenterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaPersonCenterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3040FCC120FC8E6200845954 /* SinaPersonCenterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaPersonCenterDemoTests.m; sourceTree = "<group>"; };
+		3040FCC320FC8E6200845954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3040FCC820FC8E6200845954 /* SinaPersonCenterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaPersonCenterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3040FCCC20FC8E6200845954 /* SinaPersonCenterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaPersonCenterDemoUITests.m; sourceTree = "<group>"; };
+		3040FCCE20FC8E6200845954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3040FCA220FC8E6100845954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3040FCBA20FC8E6200845954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3040FCC520FC8E6200845954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3040FC9C20FC8E6100845954 = {
+			isa = PBXGroup;
+			children = (
+				3040FCA720FC8E6100845954 /* SinaPersonCenterDemo */,
+				3040FCC020FC8E6200845954 /* SinaPersonCenterDemoTests */,
+				3040FCCB20FC8E6200845954 /* SinaPersonCenterDemoUITests */,
+				3040FCA620FC8E6100845954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3040FCA620FC8E6100845954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3040FCA520FC8E6100845954 /* SinaPersonCenterDemo.app */,
+				3040FCBD20FC8E6200845954 /* SinaPersonCenterDemoTests.xctest */,
+				3040FCC820FC8E6200845954 /* SinaPersonCenterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3040FCA720FC8E6100845954 /* SinaPersonCenterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3040FCA820FC8E6100845954 /* AppDelegate.h */,
+				3040FCA920FC8E6100845954 /* AppDelegate.m */,
+				3040FCAB20FC8E6100845954 /* ViewController.h */,
+				3040FCAC20FC8E6100845954 /* ViewController.m */,
+				3040FCAE20FC8E6100845954 /* Main.storyboard */,
+				3040FCB120FC8E6200845954 /* Assets.xcassets */,
+				3040FCB320FC8E6200845954 /* LaunchScreen.storyboard */,
+				3040FCB620FC8E6200845954 /* Info.plist */,
+				3040FCB720FC8E6200845954 /* main.m */,
+			);
+			path = SinaPersonCenterDemo;
+			sourceTree = "<group>";
+		};
+		3040FCC020FC8E6200845954 /* SinaPersonCenterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3040FCC120FC8E6200845954 /* SinaPersonCenterDemoTests.m */,
+				3040FCC320FC8E6200845954 /* Info.plist */,
+			);
+			path = SinaPersonCenterDemoTests;
+			sourceTree = "<group>";
+		};
+		3040FCCB20FC8E6200845954 /* SinaPersonCenterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3040FCCC20FC8E6200845954 /* SinaPersonCenterDemoUITests.m */,
+				3040FCCE20FC8E6200845954 /* Info.plist */,
+			);
+			path = SinaPersonCenterDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3040FCA420FC8E6100845954 /* SinaPersonCenterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3040FCD120FC8E6200845954 /* Build configuration list for PBXNativeTarget "SinaPersonCenterDemo" */;
+			buildPhases = (
+				3040FCA120FC8E6100845954 /* Sources */,
+				3040FCA220FC8E6100845954 /* Frameworks */,
+				3040FCA320FC8E6100845954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinaPersonCenterDemo;
+			productName = SinaPersonCenterDemo;
+			productReference = 3040FCA520FC8E6100845954 /* SinaPersonCenterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3040FCBC20FC8E6200845954 /* SinaPersonCenterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3040FCD420FC8E6200845954 /* Build configuration list for PBXNativeTarget "SinaPersonCenterDemoTests" */;
+			buildPhases = (
+				3040FCB920FC8E6200845954 /* Sources */,
+				3040FCBA20FC8E6200845954 /* Frameworks */,
+				3040FCBB20FC8E6200845954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3040FCBF20FC8E6200845954 /* PBXTargetDependency */,
+			);
+			name = SinaPersonCenterDemoTests;
+			productName = SinaPersonCenterDemoTests;
+			productReference = 3040FCBD20FC8E6200845954 /* SinaPersonCenterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3040FCC720FC8E6200845954 /* SinaPersonCenterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3040FCD720FC8E6200845954 /* Build configuration list for PBXNativeTarget "SinaPersonCenterDemoUITests" */;
+			buildPhases = (
+				3040FCC420FC8E6200845954 /* Sources */,
+				3040FCC520FC8E6200845954 /* Frameworks */,
+				3040FCC620FC8E6200845954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3040FCCA20FC8E6200845954 /* PBXTargetDependency */,
+			);
+			name = SinaPersonCenterDemoUITests;
+			productName = SinaPersonCenterDemoUITests;
+			productReference = 3040FCC820FC8E6200845954 /* SinaPersonCenterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3040FC9D20FC8E6100845954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = LJ;
+				TargetAttributes = {
+					3040FCA420FC8E6100845954 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					3040FCBC20FC8E6200845954 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 3040FCA420FC8E6100845954;
+					};
+					3040FCC720FC8E6200845954 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 3040FCA420FC8E6100845954;
+					};
+				};
+			};
+			buildConfigurationList = 3040FCA020FC8E6100845954 /* Build configuration list for PBXProject "SinaPersonCenterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3040FC9C20FC8E6100845954;
+			productRefGroup = 3040FCA620FC8E6100845954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3040FCA420FC8E6100845954 /* SinaPersonCenterDemo */,
+				3040FCBC20FC8E6200845954 /* SinaPersonCenterDemoTests */,
+				3040FCC720FC8E6200845954 /* SinaPersonCenterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3040FCA320FC8E6100845954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3040FCB520FC8E6200845954 /* LaunchScreen.storyboard in Resources */,
+				3040FCB220FC8E6200845954 /* Assets.xcassets in Resources */,
+				3040FCB020FC8E6100845954 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3040FCBB20FC8E6200845954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3040FCC620FC8E6200845954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3040FCA120FC8E6100845954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3040FCAD20FC8E6100845954 /* ViewController.m in Sources */,
+				3040FCB820FC8E6200845954 /* main.m in Sources */,
+				3040FCAA20FC8E6100845954 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3040FCB920FC8E6200845954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3040FCC220FC8E6200845954 /* SinaPersonCenterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3040FCC420FC8E6200845954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3040FCCD20FC8E6200845954 /* SinaPersonCenterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3040FCBF20FC8E6200845954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3040FCA420FC8E6100845954 /* SinaPersonCenterDemo */;
+			targetProxy = 3040FCBE20FC8E6200845954 /* PBXContainerItemProxy */;
+		};
+		3040FCCA20FC8E6200845954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3040FCA420FC8E6100845954 /* SinaPersonCenterDemo */;
+			targetProxy = 3040FCC920FC8E6200845954 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3040FCAE20FC8E6100845954 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3040FCAF20FC8E6100845954 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3040FCB320FC8E6200845954 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3040FCB420FC8E6200845954 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3040FCCF20FC8E6200845954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3040FCD020FC8E6200845954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3040FCD220FC8E6200845954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinaPersonCenterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lj.SinaPersonCenterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3040FCD320FC8E6200845954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinaPersonCenterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lj.SinaPersonCenterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3040FCD520FC8E6200845954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinaPersonCenterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lj.SinaPersonCenterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaPersonCenterDemo.app/SinaPersonCenterDemo";
+			};
+			name = Debug;
+		};
+		3040FCD620FC8E6200845954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinaPersonCenterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lj.SinaPersonCenterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaPersonCenterDemo.app/SinaPersonCenterDemo";
+			};
+			name = Release;
+		};
+		3040FCD820FC8E6200845954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinaPersonCenterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lj.SinaPersonCenterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SinaPersonCenterDemo;
+			};
+			name = Debug;
+		};
+		3040FCD920FC8E6200845954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinaPersonCenterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lj.SinaPersonCenterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SinaPersonCenterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3040FCA020FC8E6100845954 /* Build configuration list for PBXProject "SinaPersonCenterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3040FCCF20FC8E6200845954 /* Debug */,
+				3040FCD020FC8E6200845954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3040FCD120FC8E6200845954 /* Build configuration list for PBXNativeTarget "SinaPersonCenterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3040FCD220FC8E6200845954 /* Debug */,
+				3040FCD320FC8E6200845954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3040FCD420FC8E6200845954 /* Build configuration list for PBXNativeTarget "SinaPersonCenterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3040FCD520FC8E6200845954 /* Debug */,
+				3040FCD620FC8E6200845954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3040FCD720FC8E6200845954 /* Build configuration list for PBXNativeTarget "SinaPersonCenterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3040FCD820FC8E6200845954 /* Debug */,
+				3040FCD920FC8E6200845954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3040FC9D20FC8E6100845954 /* Project object */;
+}
