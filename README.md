@@ -1,1 +1,2 @@
-# SinaPersonCenterDemo
+#SinaPersonCenterDemo
+类似新浪个人主页
